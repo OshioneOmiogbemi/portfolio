@@ -32,7 +32,7 @@ function Hero() {
               1500,
               "Frontend Developer",
               1500,
-              "Technology Enthusiast",
+              "Tech Enthusiast",
               1500,
             ]}
             wrapper="h2"
