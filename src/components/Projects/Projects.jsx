@@ -22,7 +22,7 @@ function Projects() {
         "A responsive web application that generates personalized advice and motivational guidance based on user input, built with a clean and interactive interface.",
       image: "/projects/advice.png",
       technologies: ["React", "JavaScript", "CSS" , "API"],
-      live: "https://https://adviceapp-gamma.vercel.app/",
+      live: "https://adviceapp-gamma.vercel.app/",
       github: "https://github.com/IceKing-1723/your-repository",
     },
 
@@ -32,7 +32,7 @@ function Projects() {
         "A modern, responsive developer portfolio designed to showcase my projects, technical skills, experience and software engineering journey through an interactive digital experience",
       image: "/projects/portfolio.png",
       technologies: ["TailwindCSS", "JavaScript", "Framer Motion", "React"],
-      live: "https://https://portfolio-davidomi.vercel.app/",
+      live: "https://portfolio-davidomi.vercel.app/",
       github: "https://github.com/IceKing-1723/your-repository",
     },
   ];
