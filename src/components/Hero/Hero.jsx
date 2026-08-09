@@ -48,23 +48,24 @@ function Hero() {
 
           <div className="flex flex-wrap gap-4 mt-10">
 
-  <button
-    className="
-      text-white
-      font-semibold
-      rounded-lg
-      transition-all
-      duration-300
-      hover:border-blue-400
-      hover:bg-blue-500/10
-      hover:shadow-[0_0_25px_rgba(37,99,235,0.25)]
-      hover:-translate-y-1
-    "
-
-  >
-    <p className="resume">Download Resume</p>
-    
-  </button>
+ <a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    text-white
+    font-semibold
+    rounded-lg
+    transition-all
+    duration-300
+    hover:border-blue-400
+    hover:bg-blue-500/10
+    hover:shadow-[0_0_25px_rgba(37,99,235,0.25)]
+    hover:-translate-y-1
+  "
+>
+  <p className="resume">Download Resume</p>
+</a>
 
 </div>
         </motion.div>
