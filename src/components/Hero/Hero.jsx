@@ -55,11 +55,16 @@ function Hero() {
 
           <div className="flex flex-wrap gap-4 mt-10">
 
-            <button
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="
                 text-white
                 font-semibold
                 rounded-lg
+                px-7
+                py-4
                 transition-all
                 duration-300
                 hover:border-blue-400
@@ -68,15 +73,8 @@ function Hero() {
                 hover:-translate-y-1
               "
             >
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block px-7 py-4"
-              >
-                Download Resume
-              </a>
-            </button>
+              Download Resume
+            </a>
 
           </div>
 
@@ -90,22 +88,34 @@ function Hero() {
           transition={{ duration: 1 }}
         >
 
-          <div
-            className="absolute inset-0 rounded-full p-[5px]
-            bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-700"
-            style={{
-              boxShadow:
-                "0 0 20px #2563eb, 0 0 40px #2563eb80, 0 0 80px #38bdf840",
-            }}
-          />
+          <div className="relative w-[365px] h-[365px] flex items-center justify-center">
 
-          <div className="relative w-[365px] h-[365px] rounded-full overflow-hidden border-2 border-[#0f172a] bg-[#050816]">
-
-            <img
-              src={profile}
-              alt="David"
-              className="w-full h-full object-cover"
+            <div
+              className="
+                absolute
+                inset-0
+                rounded-full
+                p-[5px]
+                bg-gradient-to-r
+                from-blue-500
+                via-cyan-400
+                to-blue-700
+              "
+              style={{
+                boxShadow:
+                  "0 0 20px #2563eb, 0 0 40px #2563eb80, 0 0 80px #38bdf840",
+              }}
             />
+
+            <div className="relative w-[365px] h-[365px] rounded-full overflow-hidden border-2 border-[#0f172a] bg-[#050816]">
+
+              <img
+                src={profile}
+                alt="David"
+                className="w-full h-full object-cover"
+              />
+
+            </div>
 
           </div>
 
