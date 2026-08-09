@@ -17,21 +17,21 @@ function Projects() {
     },
 
     {
-      title: "Project Two",
+      title: "Advice Generator",
       description:
-        "A modern web application built to solve real-world problems through a clean and responsive user experience.",
-      image: "/projects/project2.png",
-      technologies: ["React", "JavaScript", "CSS"],
+        "A responsive web application that generates personalized advice and motivational guidance based on user input, built with a clean and interactive interface.",
+      image: "/projects/advice.png",
+      technologies: ["React", "JavaScript", "CSS" , "API"],
       live: "https://your-live-demo-url.com",
       github: "https://github.com/IceKing-1723/your-repository",
     },
 
     {
-      title: "Project Three",
+      title: "Portfolio Website",
       description:
-        "A responsive software project demonstrating modern frontend development and interactive user interfaces.",
-      image: "/projects/project3.png",
-      technologies: ["HTML", "CSS", "JavaScript"],
+        "A modern, responsive developer portfolio designed to showcase my projects, technical skills, experience and software engineering journey through an interactive digital experience",
+      image: "/projects/portfolio.png",
+      technologies: ["TailwindCSS", "JavaScript", "Framer Motion", "React"],
       live: "https://your-live-demo-url.com",
       github: "https://github.com/IceKing-1723/your-repository",
     },

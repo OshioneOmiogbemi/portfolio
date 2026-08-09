@@ -16,7 +16,7 @@ function Footer() {
 
           <div className="footer-socials">
             <a
-              href="https://github.com/IceKing-1723"
+              href="https://https://github.com/OshioneOmiogbemi"
               target="_blank"
               rel="noreferrer"
             >
