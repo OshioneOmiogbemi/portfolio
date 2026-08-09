@@ -13,7 +13,7 @@ function Projects() {
       image: "/projects/david.png",
       technologies: ["React", "JavaScript", "AI", "Gemini API"],
       live: "https://david-omi.vercel.app/",
-      github: "https://github.com/IceKing-1723/your-repository",
+      github: "https://github.com/OshioneOmiogbemi/clone1",
     },
 
     {
@@ -23,7 +23,7 @@ function Projects() {
       image: "/projects/advice.png",
       technologies: ["React", "JavaScript", "CSS" , "API"],
       live: "https://adviceapp-gamma.vercel.app/",
-      github: "https://github.com/IceKing-1723/your-repository",
+      github: "https://github.com/OshioneOmiogbemi/adviceapp",
     },
 
     {
@@ -33,7 +33,7 @@ function Projects() {
       image: "/projects/portfolio.png",
       technologies: ["TailwindCSS", "JavaScript", "Framer Motion", "React"],
       live: "https://portfolio-davidomi.vercel.app/",
-      github: "https://github.com/IceKing-1723/your-repository",
+      github: "https://github.com/OshioneOmiogbemi/portfolio",
     },
   ];
 
