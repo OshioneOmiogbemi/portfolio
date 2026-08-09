@@ -23,31 +23,46 @@ function Navbar() {
 
         <ul className="hidden md:flex items-center gap-8 text-sm uppercase tracking-widest">
           <li>
-            <a href="#home" className="text-white hover:text-blue-400 transition duration-300">
+            <a
+              href="#home"
+              className="text-white hover:text-blue-400 transition duration-300"
+            >
               Home
             </a>
           </li>
 
           <li>
-            <a href="#about" className="text-white hover:text-blue-400 transition duration-300">
+            <a
+              href="#about"
+              className="text-white hover:text-blue-400 transition duration-300"
+            >
               About
             </a>
           </li>
 
           <li>
-            <a href="#skills" className="text-white hover:text-blue-400 transition duration-300">
+            <a
+              href="#skills"
+              className="text-white hover:text-blue-400 transition duration-300"
+            >
               Skills
             </a>
           </li>
 
           <li>
-            <a href="#projects" className="text-white hover:text-blue-400 transition duration-300">
+            <a
+              href="#projects"
+              className="text-white hover:text-blue-400 transition duration-300"
+            >
               Projects
             </a>
           </li>
 
           <li>
-            <a href="#contact" className="text-white hover:text-blue-400 transition duration-300">
+            <a
+              href="#contact"
+              className="text-white hover:text-blue-400 transition duration-300"
+            >
               Contact
             </a>
           </li>
@@ -58,9 +73,17 @@ function Navbar() {
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle navigation menu"
         >
-          <span className={menuOpen ? "menu-bar bar-one" : "menu-bar"}></span>
-          <span className={menuOpen ? "menu-bar bar-two" : "menu-bar"}></span>
-          <span className={menuOpen ? "menu-bar bar-three" : "menu-bar"}></span>
+          <span
+            className={menuOpen ? "menu-bar bar-one" : "menu-bar"}
+          ></span>
+
+          <span
+            className={menuOpen ? "menu-bar bar-two" : "menu-bar"}
+          ></span>
+
+          <span
+            className={menuOpen ? "menu-bar bar-three" : "menu-bar"}
+          ></span>
         </button>
       </div>
 
