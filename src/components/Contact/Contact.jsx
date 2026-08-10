@@ -136,7 +136,7 @@ function Contact() {
             <div className="contact-socials">
 
               <a
-                href="https://https://github.com/OshioneOmiogbemi"
+                href="https://github.com/OshioneOmiogbemi"
                 target="_blank"
                 rel="noreferrer"
               >
